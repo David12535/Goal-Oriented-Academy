@@ -1,0 +1,91 @@
+<!--HTML tables allow web developers to arrange data into rows and columns.
+ცხრილი HTML-ში შედგება ცხრილის უჯრედებისგან რიგებისა და სვეტების შიგნით.
+Example
+Company	Contact	Country
+Alfreds Futterkiste	Maria Anders	Germany
+Centro comercial Moctezuma	Francisco Chang	Mexico
+Ernst Handel	Roland Mendel	Austria
+Island Trading	Helen Bennett	UK
+Laughing Bacchus Winecellars	Yoshi Tannamuri	Canada
+Magazzini Alimentari Riuniti	Giovanni Rovelli	Italy-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+              <th>Company</th>
+              <th>Contact</th>
+              <th>Country</th>
+            </tr>
+            <br>
+            <tr>
+              <td>Alfreds Futterkiste</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+            </tr>
+            <br>
+            <tr>
+              <td>Centro comercial Moctezuma</td>
+              <td>Francisco Chang</td>
+              <td>Mexico</td>
+            </tr>
+<!--მაგიდის უჯრედები
+ცხრილის თითოეული უჯრედი განისაზღვრება <td> და </td> ტეგით.
+
+td ნიშნავს ცხრილის მონაცემებს.
+
+ყველაფერი <td>-სა და </td>-ს შორის არის ცხრილის უჯრედის შინაარსი.
+for example:-->
+            <table>
+            <tr>
+            <td>Emil</td>
+            <td>Tobias</td>
+            <td>Linus</td>
+             </tr>
+        </table>
+          </table>
+    
+    </body>
+</html>
+<!--ცხრილის თითოეული მწკრივი იწყება <tr>-ით და მთავრდება </tr> ტეგით.-->
+<table>
+    <tr>
+      <td>Emil</td>
+      <td>Tobias</td>
+      <td>Linus</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>14</td>
+      <td>10</td>
+    </tr>
+  </table>
+<!--ზოგჯერ გსურთ, რომ თქვენი უჯრედები იყოს ცხრილის სათაურის უჯრედები. ასეთ შემთხვევებში გამოიყენეთ <th> ტეგი <td> ტეგის ნაცვლად:
+
+th ნიშნავს ცხრილის სათაურს.
+
+მაგალითი
+მოდით, პირველი რიგი იყოს ცხრილის სათაურის უჯრედები:-->
+<table>
+    <tr>
+      <th>character 1</th>
+      <th>character 2</th>
+      <th>character 3</th>
+    </tr>
+    <tr>
+      <td>Emil</td>
+      <td>David</td>
+      <td>Gega</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>12</td>
+      <td>15</td>
+    </tr>
+  </table>
+<!--ნაგულისხმევად, ტექსტი <th> ელემენტებში არის თამამი და ცენტრში, მაგრამ თქვენ შეგიძლიათ შეცვალოთ ეს CSS-ით.-->

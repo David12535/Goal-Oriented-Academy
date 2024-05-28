@@ -1,0 +1,6 @@
+name = input("what is your name?")
+print("here is your selected answer",name)
+surname = input("what is your surname?")
+print("here is your selected answer",surname)
+age = input("how old are you?")
+print("here is your selected anster",age)

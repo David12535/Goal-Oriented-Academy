@@ -1,0 +1,5 @@
+#login{
+    width: max-content;
+    scroll-snap-type-x: mandatory;
+    display: flow-root;
+}

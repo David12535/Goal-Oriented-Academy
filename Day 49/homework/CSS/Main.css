@@ -1,0 +1,37 @@
+.navbutton{
+    width: 200;
+    height: 75;
+    background-color: rgb(218, 228, 104);
+    border-radius: 15px;
+}
+
+#Resources{
+    text-align: center;
+}
+
+.resource{
+    width: 300;
+    height: 300;
+    background-color: rgb(161, 162, 188);
+}
+body{
+    background-color: rgb(229, 146, 78);
+}
+
+
+#connection{
+    text-align: right;
+}
+
+.icon{
+    width: 50;
+}
+
+#profile{
+    width: 300;
+}
+
+#navmenu{
+    text-align: center;
+}
+
